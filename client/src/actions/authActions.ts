@@ -10,6 +10,7 @@ import {
 import axios, { AxiosError } from "axios";
 
 export async function registerAction(prevState: any, formData: FormData) {
+  console.log("User registered");
   try {
     await axios.post(REGISTER_URL, {
       name: formData.get("name"),
