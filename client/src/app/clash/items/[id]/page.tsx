@@ -9,15 +9,30 @@ import ViewClashItems from "@/components/clash/ViewClashItems";
 import { getServerSession } from "next-auth";
 import React from "react";
 
+
+
+export async function generateMetadata({
+    params,
+}: {
+    params: Promise<{ id: string }>
+}) {
+    const { id } = await params
+    const clash = await fetchClash(Number(id));
+
+    return {
+        title: clash.title,
+    }
+}
+
 export default async function clashItems({
     params,
 }: {
-    params: { id: number };
+    params: Promise<{ id: string }>;
 }) {
 
     const { id } = await params;
     const session: CustomSession | null = await getServerSession(authOptions);
-    const clash: ClashType | null = await fetchClash(id);
+    const clash: ClashType | null = await fetchClash(Number(id));
     return (
         <div className="container">
             <Navbar />
