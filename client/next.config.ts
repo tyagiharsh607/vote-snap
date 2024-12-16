@@ -10,10 +10,14 @@ const nextConfig: NextConfig = {
       },
 
       // for the deployed site
-      // {
-      //   hostname: "vote-snap",
-      //   protocol: "https",
-      // },
+      {
+        hostname: "vote-snap",
+        protocol: "https",
+      },
+      {
+        hostname: "vote-snap-backend",
+        protocol: "https",
+      },
     ],
   },
   reactStrictMode: false,
