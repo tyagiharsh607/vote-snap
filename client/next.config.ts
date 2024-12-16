@@ -11,11 +11,11 @@ const nextConfig: NextConfig = {
 
       // for the deployed site
       {
-        hostname: "vote-snap",
+        hostname: "vote-snap.vercel.app",
         protocol: "https",
       },
       {
-        hostname: "vote-snap-backend",
+        hostname: "vote-snap-backend.onrender.com",
         protocol: "https",
       },
     ],
