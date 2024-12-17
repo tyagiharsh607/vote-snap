@@ -1,9 +1,7 @@
-Here’s a clean and professional **README.md** template for your **VoteSnap** project GitHub repository:
-
 ---
 
 # **VoteSnap** 🗳️  
-Real-time voting application with live updates, secure account verification, and optimized backend performance.
+Real-time image voting application with live updates, secure account verification, and optimized backend performance.
 
 ---
 
