@@ -55,7 +55,7 @@ Make sure you have the following installed on your machine:
 
 ### **Clone the Repository**  
 ```bash
-git clone https://github.com/yourusername/votesnap.git
+git clone https://github.com/tyagiharsh607/votesnap.git
 cd votesnap
 ```
 
