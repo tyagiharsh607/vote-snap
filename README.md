@@ -59,10 +59,6 @@ git clone https://github.com/tyagiharsh607/votesnap.git
 cd votesnap
 ```
 
-### **Install Dependencies**  
-```bash
-npm install
-```
 
 ### **Database Setup**  
 - Create a PostgreSQL database.  
@@ -87,44 +83,10 @@ JWT_SECRET="your_jwt_secret"
 
 ---
 
-## **Usage**  
-
-### **Development Server**  
-To start the development server:  
-```bash
-npm run dev
-```
-Access the project at [http://localhost:3000](http://localhost:3000).
-
-### **Run Production Build**  
-To build and run in production:  
-```bash
-npm run build
-npm start
-```
-
----
-
-## **Folder Structure**  
-```bash
-votesnap/
-│
-├── public/            # Static files  
-├── src/  
-│   ├── actions/       # Server actions (authentication, voting)  
-│   ├── components/    # Reusable UI components  
-│   ├── pages/         # Next.js pages  
-│   ├── lib/           # Utility functions (queues, database connections)  
-│   ├── styles/        # Global styles  
-│   └── prisma/        # Database schema  
-│
-├── .env               # Environment variables  
-├── package.json       # Project dependencies  
-└── README.md          # Project documentation  
-```
 
 
 ---
+
 
 ## **Contributions**  
 Feel free to fork this repository, open issues, or submit pull requests. All contributions are welcome!
