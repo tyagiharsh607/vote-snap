@@ -71,7 +71,7 @@ npx prisma migrate dev
 
 ## **Environment Variables**  
 
-Create a `.env` file in the root of your project and add the following:  
+Create a `.env` file in the backend folder of your project and add the following:  
 ```env
 DATABASE_URL="postgresql://user:password@localhost:5432/votesnap"  
 REDIS_URL="redis://localhost:6379"  
